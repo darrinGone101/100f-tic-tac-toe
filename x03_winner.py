@@ -40,7 +40,7 @@ def main():
   assert whoWins(board) == 'O'
   board = [ 'X','O',0,'X','O','X','O','O','X']
   assert whoWins(board) == 'O'
-  board = [ 'X','O',0,'X','X','O','O','O','X']
+  board = [ 'X','O',0,'X','X','O','O','X','O']
   assert whoWins(board) == None
   board = [ 'X','O',0,'X','X','X','O','O','X']
   assert whoWins(board) == 'X'
